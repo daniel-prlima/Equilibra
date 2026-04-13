@@ -582,10 +582,10 @@ nav {
 
 @media (max-width: 768px) {
 
-     .coluna-bloco a {
+     .suma{
         display: none;
     }
-    
+
     .content {
         flex-direction: column;
     }
