@@ -249,7 +249,7 @@ nav {
 
 .padroes-emocionais-sec {
     /* Fundo gradiente roxo escuro baseado na imagem */
-    background: linear-gradient(135deg, #51276a, #281438);
+    background: #DBA0FE/*linear-gradient(135deg, #51276a, #281438)*/;
     border-radius: 30px;
     padding: 40px 50px;
     color: #fff;
@@ -279,7 +279,7 @@ nav {
 
 /* Card Roxo Central */
 .reflexoes-card-resumo {
-    background-color: #4a0f5a; /* Roxo vibrante escuro */
+    background-color: #AC52D9; /* Roxo vibrante escuro */
     border-radius: 16px;
     padding: 30px 40px;
     flex: 1.2;
@@ -298,7 +298,7 @@ nav {
 .reflexoes-card-resumo p {
     font-size: 1.2rem;
     font-weight: 500;
-    color: #dfa6ff;
+    color: #29193E;
     position: relative;
     z-index: 2;
 }
@@ -310,7 +310,7 @@ nav {
 /* Bolhas escuras de decoração dentro do card */
 .blob {
     position: absolute;
-    background-color: #270433;
+    background-color: #CD8AFE;
     border-radius: 50%;
     z-index: 1;
 }
@@ -349,13 +349,15 @@ nav {
     box-shadow: 0 0 15px rgba(206, 139, 255, 0.3);
 }
 
-/* Ilustração do Boneco */
+
+/* Ilustração do Boneco 
 .reflexoes-img-wrapper img {
     height: 220px;
     object-fit: contain;
-    /* Faz a imagem "flutuar" um pouco para cima, quebrando o alinhamento como no design */
+    /* Faz a imagem "flutuar" um pouco para cima, quebrando o alinhamento como no design 
     transform: translateY(-25px); 
-}
+    margin-left: -200px;
+}*/
 
 /* Emoções mais frequentes */
 .emocoes-titulo {
@@ -366,7 +368,7 @@ nav {
 }
 
 .emocoes-box {
-    background-color: #311142; /* Fundo mais escuro para a caixa dos emojis */
+    background-color: #AC52D9; /* Fundo mais escuro para a caixa dos emojis */
     border-radius: 16px;
     padding: 25px 30px;
     display: flex;
@@ -388,7 +390,7 @@ nav {
     height: 75px;
     border-radius: 50%;
     border: 2px solid #732c8c;
-    background-color: #1e052c;
+    background-color: #CD8AFE;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -398,7 +400,7 @@ nav {
 
 /* Etiqueta abaixo do Emoji */
 .emocao-label {
-    background-color: #1e052c;
+    background-color: #CD8AFE;
     border: 1px solid #732c8c;
     padding: 4px 12px;
     border-radius: 4px;
