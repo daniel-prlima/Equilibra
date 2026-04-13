@@ -582,9 +582,7 @@ nav {
 
 @media (max-width: 768px) {
 
-     .suma{
-        display: none;
-    }
+     
 
     .content {
         flex-direction: column;
