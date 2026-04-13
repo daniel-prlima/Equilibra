@@ -581,6 +581,11 @@ nav {
 }
 
 @media (max-width: 768px) {
+
+     .coluna-bloco a {
+        display: none;
+    }
+    
     .content {
         flex-direction: column;
     }
