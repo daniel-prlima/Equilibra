@@ -249,7 +249,7 @@ nav {
 
 .padroes-emocionais-sec {
     /* Fundo gradiente roxo escuro baseado na imagem */
-    background: #DBA0FE/*linear-gradient(135deg, #51276a, #281438)*/;
+    background: var(--bg-card);
     border-radius: 30px;
     padding: 40px 50px;
     color: #fff;
